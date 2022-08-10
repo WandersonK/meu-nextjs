@@ -10,7 +10,11 @@ function Home() {
 
             <div style={{marginTop: 50}}>
                 <Link href="/sobre">
-                    <a>Acessar página Sobre</a>
+                    <a style={{padding: 5}}>Acessar página Sobre</a>
+                </Link>
+
+                <Link href="/tempo">
+                    <a style={{padding: 5}}>Acessar página Tempo</a>
                 </Link>
             </div>
         </div>
