@@ -2,9 +2,9 @@ import { useState } from 'react';
 
 function Home() {
     return (
-        <div>
-            <h1>Lucas é feio</h1>
-            <p>Informe no contador abaixo o quanto ele é feio</p>
+        <div style={{textAlign: 'center',}}>
+            <h1>Minha Home</h1>
+            <p>Altere o Contador abaixo</p>
             <Contador />
         </div>
     )
