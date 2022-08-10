@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Link from 'next/link';
 
 function Home() {
     return (
@@ -6,9 +7,14 @@ function Home() {
             <h1>Minha Home</h1>
             <p>Altere o Contador abaixo</p>
             <Contador />
+
+            <div style={{marginTop: 50}}>
+                <Link href="/sobre">
+                    <a>Acessar página Sobre</a>
+                </Link>
+            </div>
         </div>
     )
-
 }
 
 function Contador() {
